@@ -1,0 +1,44 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+}
+body {
+    overflow: hidden;
+}
+
+.panel {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.panel.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+#about-me {
+    text-align: center;
+}
+
+#about-me .text {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: aqua;
+}
